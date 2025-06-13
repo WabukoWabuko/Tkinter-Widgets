@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 import os
 
-
+# Warning popup message
 def scary_action():
     messagebox.showerror(title="Scary", message="Deleting hard disk. Please wait...")
 
